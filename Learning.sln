@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyTest", "Learning.PollyTest\PollyTest.csproj", "{290CBC0E-0220-432C-B7E4-404833496DBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyTest", "PollyTest\PollyTest.csproj", "{290CBC0E-0220-432C-B7E4-404833496DBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics", "generics\generics.csproj", "{50DA272A-5BB2-4500-A1C4-19539C3658EB}"
 EndProject

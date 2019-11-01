@@ -9,7 +9,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
-using DeletegateTest.Redis;
+using System.Windows.Forms;
 
 namespace DeletegateTest
 {
@@ -40,8 +40,8 @@ namespace DeletegateTest
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new DeletegateTest.ProgressBar.FileReadForm());
 
-            DeletegateStep4 step4 = new DeletegateStep4();
-            step4.Print();
+            //DeletegateStep4 step4 = new DeletegateStep4();
+            //step4.Print();
             Console.Read();
         }
     }
