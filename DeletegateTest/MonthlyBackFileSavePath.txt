@@ -1,0 +1,1 @@
+\\10.100.10.209\F$\SQLServer\EveryMonthBak,1;\\10.100.41.125\E$\SQLServer\EveryMonthBak,1

@@ -1,0 +1,7 @@
+C:\Users\airven\Desktop\Test\generics\bin\Debug\generics.exe.config
+C:\Users\airven\Desktop\Test\generics\bin\Debug\generics.exe
+C:\Users\airven\Desktop\Test\generics\bin\Debug\generics.pdb
+C:\Users\airven\Desktop\Test\generics\obj\Debug\generics.csprojAssemblyReference.cache
+C:\Users\airven\Desktop\Test\generics\obj\Debug\generics.csproj.CoreCompileInputs.cache
+C:\Users\airven\Desktop\Test\generics\obj\Debug\generics.exe
+C:\Users\airven\Desktop\Test\generics\obj\Debug\generics.pdb
