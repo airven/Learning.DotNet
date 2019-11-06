@@ -1,0 +1,1 @@
+\\10.10.10.10\F$\SQLServer\MonthBak,1;\\10.10.10.10\E$\SQLServer\MonthBak,1

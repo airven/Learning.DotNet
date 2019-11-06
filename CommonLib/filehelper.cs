@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace DeletegateTest
+namespace CommonLib
 {
     public class filehelper
     {
@@ -70,8 +70,6 @@ namespace DeletegateTest
                 throw ex;
             }
         }
-
-
         private static List<string> GetLocalIpv4()
         {
             var localIpList = new List<string>();
