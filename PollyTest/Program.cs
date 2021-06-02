@@ -15,13 +15,15 @@ namespace Learning.PollyTest
         static void Main(string[] args)
         {
             //一个简单的异常重试,按指定时间进行重试
-            TestSimple();
+            //TestSimple();
 
             //一个简单的异常重试,按指定次数进行重试
-            RetryCountTest();
+            //RetryCountTest();
 
             //模仿一个http的post请求，如果请求异常，则进行重试
             RetryInHttpRequest();
+
+            Console.Read();
         }
 
 
@@ -81,8 +83,7 @@ namespace Learning.PollyTest
 
         static void RetryInHttpRequest()
         {
-            var _httpRequestPolicy = Policy.HandleResult<HttpResponseMessage>(
-            r => r.StatusCode == HttpStatusCode.OK)
+            var _httpRequestPolicy = Policy.HandleResult<HttpResponseMessage>(r => r.StatusCode != HttpStatusCode.OK)
             .WaitAndRetryAsync(new[]
                  {
                         TimeSpan.FromSeconds(1),

@@ -36,9 +36,9 @@ namespace DeletegateTest
             //Application.Run(new DeletegateTest.EventInWinForm.From1());
 
             //在线程中过程通过委托来更新UI变化
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new DeletegateTest.ProgressBar.FileReadForm());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new ProgressBar.FileReadForm());
 
             //DeletegateStep4 step4 = new DeletegateStep4();
             //step4.Print();

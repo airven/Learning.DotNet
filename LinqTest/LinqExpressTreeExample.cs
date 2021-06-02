@@ -26,15 +26,13 @@ namespace LinqTest
             //GreaterThan
             //GreaterThanOrEqual
             //Equal
-
-
             IList<RuleModule> ruleModuleList = new List<RuleModule>() {
                 new RuleModule {MemberName="CPU",TargetValue="30",Operator="GreaterThan" },
-                new RuleModule {MemberName="Connection",TargetValue="15", Operator="GreaterThan" }
-                //new RuleModule {MemberName="CPU",TargetValue="10",Operator="GreaterThan" },
-                //new RuleModule {MemberName="CPU",TargetValue="25", Operator="LessThanOrEqual" },
-                //new RuleModule {MemberName="Block",TargetValue="20", Operator="GreaterThanOrEqual" },
-                //new RuleModule {MemberName="Warntime",TargetValue="2015022415", Operator="GreaterThan" }
+                new RuleModule {MemberName="Connection",TargetValue="15", Operator="GreaterThan" },
+                new RuleModule {MemberName="CPU",TargetValue="10",Operator="GreaterThan" },
+                new RuleModule {MemberName="CPU",TargetValue="25", Operator="LessThanOrEqual" },
+                new RuleModule {MemberName="Block",TargetValue="20", Operator="GreaterThanOrEqual" },
+                new RuleModule {MemberName="Warntime",TargetValue="2015022415", Operator="GreaterThan" }
             };
 
             IList<computer> computerinfolist = new List<computer>() {

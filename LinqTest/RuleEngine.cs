@@ -37,7 +37,7 @@ namespace LinqTest
         }
 
         /// <summary>
-        /// 匹配两种规则
+        /// 匹配一种规则
         /// </summary>
         public static Func<T, bool> CompileRule<T>(RuleModule r)
         {
