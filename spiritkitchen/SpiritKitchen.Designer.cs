@@ -45,9 +45,26 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.partyCostlable = new System.Windows.Forms.Label();
+            this.partyfinceCheckBox = new System.Windows.Forms.CheckBox();
+            this.partyWineCheckBox = new System.Windows.Forms.CheckBox();
+            this.partyMemberCheckBox = new System.Windows.Forms.CheckBox();
+            this.PartyDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.partyNuMericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.partyCustomerPhone = new System.Windows.Forms.TextBox();
+            this.partyCustomerName = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dinnerNumericUpDown)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.partyNuMericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -221,12 +238,163 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.PowderBlue;
+            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.partyCostlable);
+            this.tabPage2.Controls.Add(this.partyfinceCheckBox);
+            this.tabPage2.Controls.Add(this.partyWineCheckBox);
+            this.tabPage2.Controls.Add(this.partyMemberCheckBox);
+            this.tabPage2.Controls.Add(this.PartyDateTimePicker);
+            this.tabPage2.Controls.Add(this.partyNuMericUpDown);
+            this.tabPage2.Controls.Add(this.partyCustomerPhone);
+            this.tabPage2.Controls.Add(this.partyCustomerName);
+            this.tabPage2.Controls.Add(this.label10);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.label6);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(419, 409);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "宴会用餐";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(249, 366);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "取消";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(45, 366);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "预定";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // partyCostlable
+            // 
+            this.partyCostlable.AutoSize = true;
+            this.partyCostlable.BackColor = System.Drawing.Color.Silver;
+            this.partyCostlable.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.partyCostlable.Location = new System.Drawing.Point(117, 312);
+            this.partyCostlable.Name = "partyCostlable";
+            this.partyCostlable.Size = new System.Drawing.Size(49, 14);
+            this.partyCostlable.TabIndex = 12;
+            this.partyCostlable.Text = "label11";
+            // 
+            // partyfinceCheckBox
+            // 
+            this.partyfinceCheckBox.AutoSize = true;
+            this.partyfinceCheckBox.Location = new System.Drawing.Point(246, 266);
+            this.partyfinceCheckBox.Name = "partyfinceCheckBox";
+            this.partyfinceCheckBox.Size = new System.Drawing.Size(72, 16);
+            this.partyfinceCheckBox.TabIndex = 11;
+            this.partyfinceCheckBox.Text = "华丽装饰";
+            this.partyfinceCheckBox.UseVisualStyleBackColor = true;
+            this.partyfinceCheckBox.CheckedChanged += new System.EventHandler(this.partyfinceCheckBox_CheckedChanged);
+            // 
+            // partyWineCheckBox
+            // 
+            this.partyWineCheckBox.AutoSize = true;
+            this.partyWineCheckBox.Location = new System.Drawing.Point(143, 266);
+            this.partyWineCheckBox.Name = "partyWineCheckBox";
+            this.partyWineCheckBox.Size = new System.Drawing.Size(48, 16);
+            this.partyWineCheckBox.TabIndex = 10;
+            this.partyWineCheckBox.Text = "酒水";
+            this.partyWineCheckBox.UseVisualStyleBackColor = true;
+            this.partyWineCheckBox.CheckedChanged += new System.EventHandler(this.partyWineCheckBox_CheckedChanged);
+            // 
+            // partyMemberCheckBox
+            // 
+            this.partyMemberCheckBox.AutoSize = true;
+            this.partyMemberCheckBox.Location = new System.Drawing.Point(45, 266);
+            this.partyMemberCheckBox.Name = "partyMemberCheckBox";
+            this.partyMemberCheckBox.Size = new System.Drawing.Size(48, 16);
+            this.partyMemberCheckBox.TabIndex = 9;
+            this.partyMemberCheckBox.Text = "会员";
+            this.partyMemberCheckBox.UseVisualStyleBackColor = true;
+            this.partyMemberCheckBox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // PartyDateTimePicker
+            // 
+            this.PartyDateTimePicker.Location = new System.Drawing.Point(119, 204);
+            this.PartyDateTimePicker.Name = "PartyDateTimePicker";
+            this.PartyDateTimePicker.Size = new System.Drawing.Size(205, 21);
+            this.PartyDateTimePicker.TabIndex = 8;
+            // 
+            // partyNuMericUpDown
+            // 
+            this.partyNuMericUpDown.Location = new System.Drawing.Point(119, 145);
+            this.partyNuMericUpDown.Name = "partyNuMericUpDown";
+            this.partyNuMericUpDown.Size = new System.Drawing.Size(205, 21);
+            this.partyNuMericUpDown.TabIndex = 7;
+            this.partyNuMericUpDown.ValueChanged += new System.EventHandler(this.partyNuMericUpDown_ValueChanged);
+            // 
+            // partyCustomerPhone
+            // 
+            this.partyCustomerPhone.Location = new System.Drawing.Point(119, 87);
+            this.partyCustomerPhone.Name = "partyCustomerPhone";
+            this.partyCustomerPhone.Size = new System.Drawing.Size(205, 21);
+            this.partyCustomerPhone.TabIndex = 6;
+            // 
+            // partyCustomerName
+            // 
+            this.partyCustomerName.Location = new System.Drawing.Point(119, 25);
+            this.partyCustomerName.Name = "partyCustomerName";
+            this.partyCustomerName.Size = new System.Drawing.Size(205, 21);
+            this.partyCustomerName.TabIndex = 5;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(43, 312);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 12);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "费用预算";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(43, 214);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "用餐日期";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(43, 153);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "用餐人数";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(43, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "用餐电话";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(43, 34);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "客户姓名";
             // 
             // SpiritKitchen
             // 
@@ -240,6 +408,9 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dinnerNumericUpDown)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.partyNuMericUpDown)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -263,6 +434,21 @@
         private System.Windows.Forms.CheckBox dinnerWinerCheckBox;
         private System.Windows.Forms.CheckBox dinnerMemberCheckBox;
         private System.Windows.Forms.Label Costlabel;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label partyCostlable;
+        private System.Windows.Forms.CheckBox partyfinceCheckBox;
+        private System.Windows.Forms.CheckBox partyWineCheckBox;
+        private System.Windows.Forms.CheckBox partyMemberCheckBox;
+        private System.Windows.Forms.DateTimePicker PartyDateTimePicker;
+        private System.Windows.Forms.NumericUpDown partyNuMericUpDown;
+        private System.Windows.Forms.TextBox partyCustomerPhone;
+        private System.Windows.Forms.TextBox partyCustomerName;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -19,6 +19,5 @@ namespace spiritkitchen
         {
             memberOption = option;
         }
-
     }
 }
